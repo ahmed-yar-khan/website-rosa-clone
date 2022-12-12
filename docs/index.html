@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rose 2</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+        @media screen and (max-width:1183px) {
+            nav ol li a {
+                display: none;
+            }
+
+
+            .rosa2-head-para {
+                display: block;
+                margin: auto;
+                width: -webkit-fill-available;
+
+            }
+
+            /* .background-1{
+                height: 100vh !important;
+               
+            } */
+
+            nav ol {
+                width: 96vw !important;
+                padding: 0px !important;
+            }
+
+            .icon {
+                display: flex;
+                align-items: center;
+                width: 100vw;
+                justify-content: center;
+            }
+
+            .head {
+                font-size: 1.6rem !important;
+
+            }
+
+            .head-para {
+                font-size: .7rem !important;
+                width: -webkit-fill-available !important;
+
+            }
+
+            #menu {
+                display: flex !important;
+
+            }
+
+            #bangkok {
+                font-size: 3rem !important;
+                position: relative;
+                bottom: 20px !important;
+
+            }
+
+            #true-taste {
+                font-family: taste;
+                color: #ddab5d;
+                position: relative;
+                top: 0px !important;
+                font-size: 1.9rem !important;
+            }
+
+            #experience {
+                color: #e4e5e6;
+                font-size: .7rem !important;
+                bottom: 10px !important;
+                padding-bottom: 4px;
+                position: relative;
+                font-family: sans-serif;
+            }
+
+            svg {
+
+                position: relative;
+                top: 0px !important;
+            }
+
+            /* .img-section2 {
+                 height: 480px !important;
+    width: 8rem !important; 
+
+                height: 410px !important;
+                width: 8rem !important;
+
+            } */
+            .img-section2 {
+    height: 345px !important;
+    width: 7rem !important;
+}
+
+            .pic {
+                /* height: 537px !important; */
+                height: 493px !important
+            }
+
+            .second-container {
+
+                width: auto !important;
+                margin: auto !important;
+            }
+
+            .background-2 {
+                height: 853px !important;
+            }
+            .background4 {
+                flex-direction: column-reverse !important;
+            }
+
+
+
+            img.first-pic {
+    height: 5rem !important;
+}
+
+
+
+.second-container-child {
+  
+    width: auto !important;
+
+}
+#our-menu {
+    font-size: 2.6rem !important;
+}
+li {
+    
+    font-size: .6rem !important;
+}
+        
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+        body {
+            transition: all 2s linear 0s;
+            scroll-behavior: smooth;
+            -webkit-font-smoothing: auto;
+        }
+
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            text-transform: capitalize;
+
+        }
+
+        @font-face {
+            font-family: taste;
+            src: url(Allura-Regular.ttf);
+        }
+
+        @font-face {
+            font-family: Bangkok;
+            src: url(Scada-Bold.ttf);
+        }
+
+        @font-face {
+            font-family: about;
+            src: url(Signika-Bold.ttf);
+        }
+
+
+
+
+
+
+        .background-1 {
+            background-image: url(rosa-1-rosa-hero-background.jpg);
+
+            height: 657px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .head-para {
+            font-family: sans-serif;
+            font-size: 13px;
+            color: #e2e3e6;
+        }
+
+        nav li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.3rem;
+            font-family: about;
+        }
+
+        .rosa2-head-para {
+            color: white;
+            text-align: center;
+
+        }
+
+        .head {
+            font-family: sans-serif;
+            font-size: 2.5rem;
+        }
+
+        nav ol {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            font-weight: bolder;
+            list-style: none;
+            align-items: center;
+            height: 112px;
+            width: 98vw;
+            padding: 0rem 2.1rem;
+        }
+
+        .li-1 {
+            display: flex;
+            column-gap: 40px;
+        }
+
+        .li-2 {
+            display: flex;
+            column-gap: 40px;
+        }
+
+        #menu {
+            color: white;
+            font-size: 30px;
+            display: none;
+
+        }
+
+
+
+        /*======================== nav bar end==================== */
+        .first-section-center {
+
+            text-align: center;
+        }
+
+        /* .first-section-center {
+            color: white;
+            text-align: center;
+            height: 64vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        } */
+
+        .svg-flower {
+            color: #ddab5d;
+            position: relative;
+            top: 33px;
+        }
+
+
+        #true-taste {
+            font-family: taste;
+            color: #ddab5d;
+            font-size: 5.1rem;
+            position: relative;
+            top: 35px;
+        }
+
+        #bangkok {
+            font-size: 8rem;
+            font-family: bangkok;
+            position: relative;
+            bottom: 30px;
+            color: white;
+        }
+
+        #experience {
+            color: #e4e5e6;
+            font-size: 1.3rem;
+            bottom: 19px;
+            padding-bottom: 4px;
+            position: relative;
+            font-family: sans-serif;
+        }
+
+        #year {
+            font-size: 1.6rem;
+            font-family: 'about';
+            color: white;
+        }
+
+        /* ===================section 1 background 1 End============= */
+
+
+        .background-2 {
+            height: 657px;
+            background: white;
+            padding: 8px;
+            background-attachment: scroll;
+        }
+
+        /* .second-container{
+        display: flex;
+        flex: 1 1 var(--novablocks-media-content-width,50%);
+        justify-content: center;
+     } */
+        .img-section2 {
+            height: 594px;
+            width: 18rem;
+        }
+
+        .pic {
+            display: flex;
+            column-gap: 20px;
+            height: 647px;
+            align-items: center;
+        }
+
+
+
+        /* container we can use with media query */
+        .second-container {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            column-gap: 59px;
+            width: fit-content;
+            margin: auto;
+        }
+
+        .second-container {
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            width: fit-content;
+            margin: auto;
+        }
+
+        /* container we can use with media query */
+        h1.discover {
+            font-size: 4rem;
+            font-family: 'taste';
+            font-weight: bolder;
+            color: #ddab5d;
+        }
+
+        .story {
+            font-size: 3.6rem;
+            position: relative;
+            bottom: 25px;
+            font-family: 'Bangkok';
+            color: #34394b;
+        }
+
+        .second-container-child {
+            display: flex;
+            flex-direction: column;
+            width: 538px;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+
+        .svg-second {
+            color: #9a9ca5;
+            line-height: 82px;
+        }
+
+        .second-para {
+            color: #565656;
+            line-height: 20px;
+        }
+
+        /* .learn-more {
+    width: 8rem;
+    cursor: pointer;
+    padding: 8px;
+    padding-top: 48px;
+    background: none;
+    color: #ddac5f;
+    border: none;
+    border-bottom: 3px solid;
+    font-size: 15px;
+} */
+        button {
+            padding: 0;
+            margin: 0;
+            border: none;
+            background: none;
+        }
+
+        button {
+            --primary-color: #111;
+            --hovered-color: #ddab5d;
+            position: relative;
+            display: flex;
+            font-weight: 600;
+            font-size: 20px;
+            gap: 0.5rem;
+            align-items: center;
+            padding-top: 20px;
+        }
+
+        button p {
+            margin: 0;
+            position: relative;
+            font-size: 20px;
+            color: #ddab5d;
+        }
+
+        button::after {
+            position: absolute;
+            content: "";
+            width: 0;
+            left: 0;
+            bottom: -7px;
+            background: var(--hovered-color);
+            height: 2px;
+            transition: 0.3s ease-out;
+        }
+
+        button p::before {
+            position: absolute;
+            /*   box-sizing: border-box; */
+            /* content: "Subscribe"; */
+            width: 0%;
+            inset: 0;
+            color: var(--hovered-color);
+            overflow: hidden;
+            transition: 0.3s ease-in-out;
+        }
+
+        button:hover::after {
+            width: 100%;
+        }
+
+        button:hover p::before {
+            width: 100%;
+        }
+
+        button:hover svg {
+            transform: translateX(4px);
+            color: var(--hovered-color)
+        }
+
+        button svg {
+            color: #ddab5d;
+            transition: 0.2s;
+            position: relative;
+            width: 15px;
+            transition-delay: 0.2s;
+        }
+
+        /* ================background3 start============ */
+        .background3 {
+            background-image: url(rosa-1-frontpage-menu.jpg);
+            height: 657px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .position {
+            display: flex;
+            height: 412px;
+            align-items: flex-end;
+            justify-content: center;
+            text-align: center;
+        }
+
+        #Recipes {
+            font-size: 4rem;
+            color: white;
+        }
+
+        #tasteful {
+            font-size: 5rem;
+        }
+
+        /* ================background3 end============ */
+        /* ================background4 start=========== */
+
+        /* .background4 {
+            height: 656px;
+        } */
+
+
+
+        /* ================background4 end============ */
+        /* ================background5 end============ */
+        .background5 {
+            background-image: url(rosa-1-make-a-reservation.jpg);
+            height: 690px;
+            /* height: 657px; */
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        /* ================background5 end============ */
+        .second-container-child {
+    display: flex;
+    flex-direction: column;
+    width: 507px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.twoimg {
+    display: flex;
+    column-gap: 21px;
+    row-gap: 21px;
+    padding-bottom: 21px;
+}
+.four-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* .background4 {
+    height: 656px;
+    display: flex;
+    column-gap: 45px;
+    row-gap: 25px;
+    justify-content: center;
+    align-items: center;
+} */
+.background4 {
+    height: 851px;
+    display: flex;
+    column-gap: 45px;
+    row-gap: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.towimgbottom {
+    display: flex;
+    column-gap: 21px;
+}
+img.first-pic {
+    height: 12rem;
+}
+
+
+
+
+
+
+footer {
+    display: block;
+    background: #212b49;
+}
+ol {
+    width: fit-content;
+    margin: auto;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+li {
+    display: flex;
+    font-size: .8rem;
+    height: 57px;
+    align-items: center;
+    color: white;
+}
+footer ol li a{
+    color: white;
+}
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="background-1">
+
+            <nav>
+
+                <ol>
+
+                    <div class="li-1">
+                        <li class="box"><a href="#">about</a></li>
+                        <li class="box"><a href="#">menu</a></li>
+                        <li class="box"><a href="#">reservation</a></li>
+                    </div>
+                    <div class="icon">
+                        <div id="menu" class="fas fa-hamburger"></div>
+
+                        <div class="rosa2-head-para">
+                            <h2 class="head">Rosa2 Lite</h2>
+                            <p class="head-para">An Exquisite Restaurant Wordpress Theme</p>
+                        </div>
+                    </div>
+
+                    <div class="li-2">
+                        <li class="box"><a href="#">blog</a></li>
+                        <li class="box"><a href="#">contact</a></li>
+                        <li class="box"><a href="#">Style Guide</a></li>
+                    </div>
+                </ol>
+            </nav>
+
+
+
+            <div class="first-section-center">
+                <div class="svg-flower">
+                    <svg width="31" height="20" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M30.721 6.3114c0 .599-.2647 1.1494-.7941 1.651-.5155.5016-1.2679.8777-2.2571 1.1285-5.6984 1.4768-8.7774 2.2153-9.2372 2.2153-.5434 0-.815-.1394-.815-.418 0-.2229.3204-.5294.9613-.9195.2647-.1672 1.1842-.6758 2.7586-1.5257 2.9816-1.6161 4.5072-2.4381 4.5768-2.466 1.3375-.6548 2.4243-.9822 3.2602-.9822 1.031 0 1.5465.4389 1.5465 1.3166zm-4.8485-3.1766c0 .4598-.3553 1.0031-1.0658 1.63-.3901.3345-1.3654 1.059-2.9258 2.1735-2.9676 2.1178-4.6604 3.1766-5.0784 3.1766-.209 0-.3762-.1393-.5016-.418l.2508-.585c.836-.8639 1.7346-1.8531 2.696-2.9677 1.0309-1.1982 1.637-1.8948 1.8181-2.0899 1.4908-1.5743 2.7796-2.3615 3.8663-2.3615.6269 0 .9404.4807.9404 1.442zm-9.0073-.9613c0 .195-.0975.7035-.2926 1.5256l-.7523 2.8422c-.2926 1.0867-.4668 1.9854-.5225 2.6959-.0279.404-.0627.6548-.1045.7523-.0418.1394-.1393.209-.2926.209-.1532 0-.2508-.0627-.2926-.1881 0-.0139-.0278-.195-.0835-.5433-.1394-.8499-.418-2.2292-.836-4.138-.3204-1.4071-.4807-2.4103-.4807-3.0094 0-.7105.1812-1.2748.5434-1.6927.3762-.418.8638-.627 1.4629-.627.4737 0 .8638.209 1.1703.627.3205.404.4807.9195.4807 1.5465zm-3.2602 7.9414c0 .2787-.1463.418-.4389.418-.1253 0-.5782-.3065-1.3584-.9195-.9334-.7245-2.0202-1.658-3.2602-2.8004a185.9607 185.9607 0 0 1-2.4451-2.2362c-.5852-.599-.8777-1.1634-.8777-1.6928 0-.404.1462-.7593.4388-1.0658.3065-.3065.6827-.4598 1.1286-.4598.6966 0 1.3305.3135 1.9017.9404.2648.2787.8011 1.052 1.6092 2.3198 2.2014 3.4134 3.302 5.2456 3.302 5.4963zm3.9081 3.4065c0 .5155-.209.9265-.627 1.233-.3065.209-.6061.411-.8986.6061-.209.2508-.3135 1.1982-.3135 2.8422 0 .6688-.0209 1.1146-.0627 1.3375-.0697.3065-.216.4598-.4389.4598-.195 0-.3135-.3622-.3553-1.0867-.0975-1.853-.1672-2.9955-.209-3.4274-.4597-.3344-.8289-.7245-1.1076-1.1703-.2229-.3762-.3344-.6827-.3344-.9196 0-.5573.2021-1.0449.6061-1.4629.418-.4319.8917-.6478 1.4211-.6478.6688 0 1.2191.2159 1.651.6478.4458.4319.6688.9614.6688 1.5883zm-5.2874-2.2361c0 .2925-.1184.4388-.3553.4388-.2368 0-.7036-.1184-1.4002-.3552a545.5275 545.5275 0 0 0-2.5705-.8778C4.8764 9.488 2.9119 8.7565 2.0063 8.2968.6688 7.614 0 6.8478 0 5.9979c0-.8917.627-1.3375 1.8809-1.3375.5015 0 1.3862.3901 2.6541 1.1703 1.0031.627 2.6193 1.7416 4.8485 3.3438.1672.1115.8568.5852 2.069 1.4211.5155.3483.7732.5782.7732.6897z"
+                            fill="currentColor"></path>
+                    </svg>
+                    <h1 id="true-taste">The true taste of</h1>
+                    <h1 id="bangkok">Bangkok</h1>
+                    <p id="experience">An experience that awakens all the senses</p>
+                    <h5 id="year">• 2022 •</h5>
+                </div>
+
+            </div>
+        </div>
+        <div class="svg-second">
+            <!-- <svg width="160" height="50" viewBox="0 0 160 50" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 50C55 50 45 0 80 0C115 0 105 50 160 50H0Z" fill="currentColor"></path></svg> -->
+        </div>
+        <!-- ==============background-1 end=============== -->
+
+
+        <div class="background-2">
+
+            <div class="second-container">
+
+                <div class="second-container-child">
+
+                    <h1 class="discover">Discover</h1>
+                    <h1 class="story">Our Story</h1>
+                    <div class="svg-second">
+                        <svg width="31" height="20" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M30.721 6.3114c0 .599-.2647 1.1494-.7941 1.651-.5155.5016-1.2679.8777-2.2571 1.1285-5.6984 1.4768-8.7774 2.2153-9.2372 2.2153-.5434 0-.815-.1394-.815-.418 0-.2229.3204-.5294.9613-.9195.2647-.1672 1.1842-.6758 2.7586-1.5257 2.9816-1.6161 4.5072-2.4381 4.5768-2.466 1.3375-.6548 2.4243-.9822 3.2602-.9822 1.031 0 1.5465.4389 1.5465 1.3166zm-4.8485-3.1766c0 .4598-.3553 1.0031-1.0658 1.63-.3901.3345-1.3654 1.059-2.9258 2.1735-2.9676 2.1178-4.6604 3.1766-5.0784 3.1766-.209 0-.3762-.1393-.5016-.418l.2508-.585c.836-.8639 1.7346-1.8531 2.696-2.9677 1.0309-1.1982 1.637-1.8948 1.8181-2.0899 1.4908-1.5743 2.7796-2.3615 3.8663-2.3615.6269 0 .9404.4807.9404 1.442zm-9.0073-.9613c0 .195-.0975.7035-.2926 1.5256l-.7523 2.8422c-.2926 1.0867-.4668 1.9854-.5225 2.6959-.0279.404-.0627.6548-.1045.7523-.0418.1394-.1393.209-.2926.209-.1532 0-.2508-.0627-.2926-.1881 0-.0139-.0278-.195-.0835-.5433-.1394-.8499-.418-2.2292-.836-4.138-.3204-1.4071-.4807-2.4103-.4807-3.0094 0-.7105.1812-1.2748.5434-1.6927.3762-.418.8638-.627 1.4629-.627.4737 0 .8638.209 1.1703.627.3205.404.4807.9195.4807 1.5465zm-3.2602 7.9414c0 .2787-.1463.418-.4389.418-.1253 0-.5782-.3065-1.3584-.9195-.9334-.7245-2.0202-1.658-3.2602-2.8004a185.9607 185.9607 0 0 1-2.4451-2.2362c-.5852-.599-.8777-1.1634-.8777-1.6928 0-.404.1462-.7593.4388-1.0658.3065-.3065.6827-.4598 1.1286-.4598.6966 0 1.3305.3135 1.9017.9404.2648.2787.8011 1.052 1.6092 2.3198 2.2014 3.4134 3.302 5.2456 3.302 5.4963zm3.9081 3.4065c0 .5155-.209.9265-.627 1.233-.3065.209-.6061.411-.8986.6061-.209.2508-.3135 1.1982-.3135 2.8422 0 .6688-.0209 1.1146-.0627 1.3375-.0697.3065-.216.4598-.4389.4598-.195 0-.3135-.3622-.3553-1.0867-.0975-1.853-.1672-2.9955-.209-3.4274-.4597-.3344-.8289-.7245-1.1076-1.1703-.2229-.3762-.3344-.6827-.3344-.9196 0-.5573.2021-1.0449.6061-1.4629.418-.4319.8917-.6478 1.4211-.6478.6688 0 1.2191.2159 1.651.6478.4458.4319.6688.9614.6688 1.5883zm-5.2874-2.2361c0 .2925-.1184.4388-.3553.4388-.2368 0-.7036-.1184-1.4002-.3552a545.5275 545.5275 0 0 0-2.5705-.8778C4.8764 9.488 2.9119 8.7565 2.0063 8.2968.6688 7.614 0 6.8478 0 5.9979c0-.8917.627-1.3375 1.8809-1.3375.5015 0 1.3862.3901 2.6541 1.1703 1.0031.627 2.6193 1.7416 4.8485 3.3438.1672.1115.8568.5852 2.069 1.4211.5155.3483.7732.5782.7732.6897z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <p class="second-para">Rosa is a restaurant, bar and coffee roastery located on a busy corner site
+                        in Farringdon’s Exmouth Market. With glazed frontage on two sides of the building, overlooking
+                        the market and a bustling London intersection.</p>
+                    <!-- <button class="learn-more">learn about us</button> -->
+
+                    <button>
+                        <p>Learn About Us</p>
+                        <svg stroke-width="4" stroke="currentColor" viewBox="0 0 24 24" fill="none" class="h-6 w-6"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linejoin="round" stroke-linecap="round"></path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="pic">
+                    <img class="img-section2" src="apple-cider-1.jpg" alt="">
+                    <img class="img-section2" src="toffee-1.jpg" alt="">
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="background3">
+
+            <div class="position">
+                <div class="background3-container">
+                    <h1 id="tasteful" class="discover">Tasteful</h1>
+                    <h1 id="Recipes" class="story">Recipes</h1>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="background4">
+
+       <div class="four-img">
+        <div class="twoimg">
+            <img class="first-pic" src="rosa-1-menu-thumb-6.jpg" alt="">
+            <img class="first-pic" src="rosa-1-menu-thumb-4.jpg" alt="">
+        </div>
+        <div class="towimgbottom">
+            <img class="first-pic" src="rosa-1-menu-thumb-1.jpg" alt="">
+            <img class="first-pic" src="rosa-1-menu-thumb-2.jpg" alt="">
+        </div>
+       </div>
+
+       <div class="second-container-child">
+
+        <h1 class="discover">Check out</h1>
+        <h1 id="our-menu" class="story">Our Menus</h1>
+        <div class="svg-second">
+            <svg width="31" height="20" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M30.721 6.3114c0 .599-.2647 1.1494-.7941 1.651-.5155.5016-1.2679.8777-2.2571 1.1285-5.6984 1.4768-8.7774 2.2153-9.2372 2.2153-.5434 0-.815-.1394-.815-.418 0-.2229.3204-.5294.9613-.9195.2647-.1672 1.1842-.6758 2.7586-1.5257 2.9816-1.6161 4.5072-2.4381 4.5768-2.466 1.3375-.6548 2.4243-.9822 3.2602-.9822 1.031 0 1.5465.4389 1.5465 1.3166zm-4.8485-3.1766c0 .4598-.3553 1.0031-1.0658 1.63-.3901.3345-1.3654 1.059-2.9258 2.1735-2.9676 2.1178-4.6604 3.1766-5.0784 3.1766-.209 0-.3762-.1393-.5016-.418l.2508-.585c.836-.8639 1.7346-1.8531 2.696-2.9677 1.0309-1.1982 1.637-1.8948 1.8181-2.0899 1.4908-1.5743 2.7796-2.3615 3.8663-2.3615.6269 0 .9404.4807.9404 1.442zm-9.0073-.9613c0 .195-.0975.7035-.2926 1.5256l-.7523 2.8422c-.2926 1.0867-.4668 1.9854-.5225 2.6959-.0279.404-.0627.6548-.1045.7523-.0418.1394-.1393.209-.2926.209-.1532 0-.2508-.0627-.2926-.1881 0-.0139-.0278-.195-.0835-.5433-.1394-.8499-.418-2.2292-.836-4.138-.3204-1.4071-.4807-2.4103-.4807-3.0094 0-.7105.1812-1.2748.5434-1.6927.3762-.418.8638-.627 1.4629-.627.4737 0 .8638.209 1.1703.627.3205.404.4807.9195.4807 1.5465zm-3.2602 7.9414c0 .2787-.1463.418-.4389.418-.1253 0-.5782-.3065-1.3584-.9195-.9334-.7245-2.0202-1.658-3.2602-2.8004a185.9607 185.9607 0 0 1-2.4451-2.2362c-.5852-.599-.8777-1.1634-.8777-1.6928 0-.404.1462-.7593.4388-1.0658.3065-.3065.6827-.4598 1.1286-.4598.6966 0 1.3305.3135 1.9017.9404.2648.2787.8011 1.052 1.6092 2.3198 2.2014 3.4134 3.302 5.2456 3.302 5.4963zm3.9081 3.4065c0 .5155-.209.9265-.627 1.233-.3065.209-.6061.411-.8986.6061-.209.2508-.3135 1.1982-.3135 2.8422 0 .6688-.0209 1.1146-.0627 1.3375-.0697.3065-.216.4598-.4389.4598-.195 0-.3135-.3622-.3553-1.0867-.0975-1.853-.1672-2.9955-.209-3.4274-.4597-.3344-.8289-.7245-1.1076-1.1703-.2229-.3762-.3344-.6827-.3344-.9196 0-.5573.2021-1.0449.6061-1.4629.418-.4319.8917-.6478 1.4211-.6478.6688 0 1.2191.2159 1.651.6478.4458.4319.6688.9614.6688 1.5883zm-5.2874-2.2361c0 .2925-.1184.4388-.3553.4388-.2368 0-.7036-.1184-1.4002-.3552a545.5275 545.5275 0 0 0-2.5705-.8778C4.8764 9.488 2.9119 8.7565 2.0063 8.2968.6688 7.614 0 6.8478 0 5.9979c0-.8917.627-1.3375 1.8809-1.3375.5015 0 1.3862.3901 2.6541 1.1703 1.0031.627 2.6193 1.7416 4.8485 3.3438.1672.1115.8568.5852 2.069 1.4211.5155.3483.7732.5782.7732.6897z"
+                    fill="currentColor"></path>
+            </svg>
+        </div>
+        <p class="second-para">For those with pure food indulgence in mind, come next door and sate your desires with our ever changing internationally and seasonally inspired small plates. We love food, lots of different food, just like you.</p>
+        <!-- <button class="learn-more">learn about us</button> -->
+
+        <button>
+            <p>View The Food Menu</p>
+            <svg stroke-width="4" stroke="currentColor" viewBox="0 0 24 24" fill="none" class="h-6 w-6"
+                xmlns="http://www.w3.org/2000/svg">
+                <path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linejoin="round" stroke-linecap="round"></path>
+            </svg>
+        </button>
+    </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+        <div class="background5">
+
+            <div class="position">
+                <div class="background3-container">
+                    <h1 id="tasteful" class="discover">The perfect</h1>
+                    <h1 id="Recipes" class="story">Blend</h1>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div class="background4">
+
+
+
+            <div class="background-2">
+
+                <div class="second-container">
+    
+                    <div class="second-container-child">
+    
+                        <h1 class="discover">Culinary</h1>
+                        <h1 class="story">Delightful</h1>
+                        <div class="svg-second">
+                            <svg width="31" height="20" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M30.721 6.3114c0 .599-.2647 1.1494-.7941 1.651-.5155.5016-1.2679.8777-2.2571 1.1285-5.6984 1.4768-8.7774 2.2153-9.2372 2.2153-.5434 0-.815-.1394-.815-.418 0-.2229.3204-.5294.9613-.9195.2647-.1672 1.1842-.6758 2.7586-1.5257 2.9816-1.6161 4.5072-2.4381 4.5768-2.466 1.3375-.6548 2.4243-.9822 3.2602-.9822 1.031 0 1.5465.4389 1.5465 1.3166zm-4.8485-3.1766c0 .4598-.3553 1.0031-1.0658 1.63-.3901.3345-1.3654 1.059-2.9258 2.1735-2.9676 2.1178-4.6604 3.1766-5.0784 3.1766-.209 0-.3762-.1393-.5016-.418l.2508-.585c.836-.8639 1.7346-1.8531 2.696-2.9677 1.0309-1.1982 1.637-1.8948 1.8181-2.0899 1.4908-1.5743 2.7796-2.3615 3.8663-2.3615.6269 0 .9404.4807.9404 1.442zm-9.0073-.9613c0 .195-.0975.7035-.2926 1.5256l-.7523 2.8422c-.2926 1.0867-.4668 1.9854-.5225 2.6959-.0279.404-.0627.6548-.1045.7523-.0418.1394-.1393.209-.2926.209-.1532 0-.2508-.0627-.2926-.1881 0-.0139-.0278-.195-.0835-.5433-.1394-.8499-.418-2.2292-.836-4.138-.3204-1.4071-.4807-2.4103-.4807-3.0094 0-.7105.1812-1.2748.5434-1.6927.3762-.418.8638-.627 1.4629-.627.4737 0 .8638.209 1.1703.627.3205.404.4807.9195.4807 1.5465zm-3.2602 7.9414c0 .2787-.1463.418-.4389.418-.1253 0-.5782-.3065-1.3584-.9195-.9334-.7245-2.0202-1.658-3.2602-2.8004a185.9607 185.9607 0 0 1-2.4451-2.2362c-.5852-.599-.8777-1.1634-.8777-1.6928 0-.404.1462-.7593.4388-1.0658.3065-.3065.6827-.4598 1.1286-.4598.6966 0 1.3305.3135 1.9017.9404.2648.2787.8011 1.052 1.6092 2.3198 2.2014 3.4134 3.302 5.2456 3.302 5.4963zm3.9081 3.4065c0 .5155-.209.9265-.627 1.233-.3065.209-.6061.411-.8986.6061-.209.2508-.3135 1.1982-.3135 2.8422 0 .6688-.0209 1.1146-.0627 1.3375-.0697.3065-.216.4598-.4389.4598-.195 0-.3135-.3622-.3553-1.0867-.0975-1.853-.1672-2.9955-.209-3.4274-.4597-.3344-.8289-.7245-1.1076-1.1703-.2229-.3762-.3344-.6827-.3344-.9196 0-.5573.2021-1.0449.6061-1.4629.418-.4319.8917-.6478 1.4211-.6478.6688 0 1.2191.2159 1.651.6478.4458.4319.6688.9614.6688 1.5883zm-5.2874-2.2361c0 .2925-.1184.4388-.3553.4388-.2368 0-.7036-.1184-1.4002-.3552a545.5275 545.5275 0 0 0-2.5705-.8778C4.8764 9.488 2.9119 8.7565 2.0063 8.2968.6688 7.614 0 6.8478 0 5.9979c0-.8917.627-1.3375 1.8809-1.3375.5015 0 1.3862.3901 2.6541 1.1703 1.0031.627 2.6193 1.7416 4.8485 3.3438.1672.1115.8568.5852 2.069 1.4211.5155.3483.7732.5782.7732.6897z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                        <p class="second-para">Housed in a restored building, we promise an intimate and relaxed dining experience that offers something different to local and foreign patrons and ensures you enjoy a memorable food experience every time.</p>
+                        <!-- <button class="learn-more">learn about us</button> -->
+    
+                        <button>
+                            <p>Make A Reservation</p>
+                            <svg stroke-width="4" stroke="currentColor" viewBox="0 0 24 24" fill="none" class="h-6 w-6"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linejoin="round" stroke-linecap="round"></path>
+                            </svg>
+                        </button>
+                    </div>
+                    <div class="pic">
+                        <img class="img-section2" src="rosa-1-bacon-1-400x600.jpg" alt="">
+                        <img class="img-section2" src="rosa-1-bacon-2-400x600.jpg" alt="">
+                    </div>
+    
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+    </section>
+
+
+
+    <footer>
+        <ol>
+            <li><a href="#">Proudly powered by WordPress</a>  <p>|  Theme: Rosa 2 Lite by</p> <a href="#">Pixelgrade</a>  .</li>
+        </ol>
+    </footer>
+
+
+
+</body>
+
+</html>
